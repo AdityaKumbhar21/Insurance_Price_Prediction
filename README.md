@@ -31,7 +31,7 @@ This project is an end-to-end machine learning application to predict medical in
 
 ## Machine Learning Model
 
-The backend uses a machine learning model trained on the popular [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance) dataset. The model pipeline includes:
+The backend uses a machine learning model trained on the popular [US Insurance Dataset](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset) dataset. The model pipeline includes:
 
 - **Preprocessing**:
   - One-hot encoding for categorical variables
