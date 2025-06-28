@@ -5,9 +5,9 @@ This project is an end-to-end machine learning application to predict medical in
 ---
 
 ## 🔗 Links
-**Blog Link (Entire Report of Project)**: [Link](https://medium.com/@adityakumbhar915/predicting-insurance-prices-an-end-to-end-machine-learning-journey-55e28684a5ea)
-**Demo Vide Link**: [Link](https://drive.google.com/file/d/1nUCRhkPML6pR4DCiG-q3gOvvaB-8LbJb/view?usp=sharing) 
-**Live URL**: [Link](https://insurance-price-prediction-ui.vercel.app/)
+**Blog Link (Entire Report of Project)**: [Link](https://medium.com/@adityakumbhar915/predicting-insurance-prices-an-end-to-end-machine-learning-journey-55e28684a5ea)  
+**Demo Vide Link**: [Link](https://drive.google.com/file/d/1nUCRhkPML6pR4DCiG-q3gOvvaB-8LbJb/view?usp=sharing)   
+**Live URL**: [Link](https://insurance-price-prediction-ui.vercel.app/)  
 
 ---
 
