@@ -4,9 +4,10 @@ This project is an end-to-end machine learning application to predict medical in
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Links
 
-🌐 **Live URL**: [[Link](https://insurance-price-prediction-ui.vercel.app/)]  
+**Demo Vide Link**: [[Link]([https://insurance-price-prediction-ui.vercel.app/](https://drive.google.com/file/d/1nUCRhkPML6pR4DCiG-q3gOvvaB-8LbJb/view?usp=sharing))] 
+**Live URL**: [[Link](https://insurance-price-prediction-ui.vercel.app/)]  
 
 ---
 
