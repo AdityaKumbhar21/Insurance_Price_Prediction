@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from model.predict import predict_output, model, MODEL_VERSION
-from schema.user_input import UserInput
+from app.schema.user_input import UserInput
+from app.model.predict import predict_output, loaded_model, MODEL_VERSION
 
 
 app = FastAPI()
@@ -29,7 +29,7 @@ def health_check():
     return {
         'status': 'OK',
         'version': MODEL_VERSION,
-        'model': model is not None
+        'model': loaded_model  is not None
     }
 
 @app.post('/predict')

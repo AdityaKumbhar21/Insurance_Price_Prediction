@@ -1,15 +1,15 @@
 import joblib
 import pandas as pd
-
+from pathlib import Path
 
 MODEL_VERSION = '1.0.0'
 
-
-with open('../models/insurance_price_pipeline.pkl', 'rb') as f:
-    model = joblib.load(f)
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent 
+with open(f'{ROOT_DIR}/models/insurance_price_pipeline.pkl', 'rb') as f:
+    loaded_model = joblib.load(f)
 
 
 def predict_output(user_input: dict):
     df = pd.DataFrame([user_input])
-    output = model.predict(df)[0]
+    output = loaded_model.predict(df)[0]
     return output
